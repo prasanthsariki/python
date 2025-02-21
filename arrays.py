@@ -33,9 +33,9 @@ def print_matrix(list1):
     for i in range (len(list1)):
         for j in range(len(list1[i])):
               if i ==j or i + j == len(list1) - 1:
-                print(list1[i][j],end="") 
+                print(list1[i][j],end=" ") 
                 if i ==j and i + j == len(list1) - 1:
-                 print(list1[i][j],end="")
+                 print(list1[i][j],end=" ")
       
              
 print_matrix(list1)
