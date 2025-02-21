@@ -26,16 +26,4 @@
 # print("second minimum is:",second_minimum)
 # print("third minimum is:",third_minimum)
 
-def is_decreasing(num):
-     num_str = str(num)
-     for i in range(len(num_str)- 1):
-         if num_str[i] <= num_str[i + 1]:
-             return False
-     return True
 
-def check_digits(lst):
-    return [is_decreasing(num) for num in lst]
-
-numbers = [538,111,200,652]
-result = check_digits(numbers)
-print(result)
